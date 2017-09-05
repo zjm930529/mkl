@@ -1,0 +1,217 @@
+.mainContent{
+	width: 1152px;
+	min-height: 100px;
+	margin: 0 auto;
+}
+.content{
+	width: 1002px;
+	min-height: 100px;
+	background: #fff;
+	border: 1px #f0f0f0 solid;
+	margin: 0 auto;
+}
+.content .content_inner{
+	width: 1002px;
+	min-height: 245px;
+	padding: 20px 30px;
+}
+.content .content_inner h3{
+	width: 942px;
+	height: 32px;
+	background: url(../mkl/images/shopcar.gif) left center no-repeat;
+	padding-left: 35px;
+	font-weight: normal;
+	line-height: 32px;
+	font-family: "微软雅黑";
+	color: #888;
+}
+.content .content_inner table{
+	width: 942px;
+	min-height: 75px;
+	border: 1px #ccc solid;
+	margin: 10px 0;
+	border-collapse: collapse;
+}
+.content .content_inner table tr th{
+	height: 35px;
+	line-height: 35px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+.content .content_inner table  .selector{
+	width: 38px;
+	height: 35px;
+}
+.car_name{
+	width: 490px;
+}
+
+.car_price ,.car_num{
+	width: 113px;
+}
+.car_tatal ,.car_option{
+	width: 94px;
+}
+
+
+.content .content_inner table .car_item{
+	width: 941px;
+	height: 132px;
+	color: #888;
+	background: #fdfaec;
+}
+content .content_inner table .car_item td{
+	height: 123px;
+}
+.car_item_name{
+	width:470px;
+	margin-left: 40px;
+	overflow: hidden;
+}
+.car_item_name img{
+	width: 70px;
+	height: 90px;
+	vertical-align: middle;
+}
+.car_item_name>a{
+	float: left;
+	width: 90px;
+	height: 92px;
+	text-align: center;
+	border: 1px #ccc solid;
+}
+.car_item_name .car_item_name_info{
+	float:left;
+	overflow: hidden;
+	
+}
+.car_item_name .car_item_name_info a{
+	display: block;
+	max-width: 250px;
+	margin-left: 10px;
+}
+
+
+.car_item .car_item_price{
+	width: 110px;
+	height: 58px;
+	text-align: center;
+}
+.car_item .car_item_price p{
+	height: 18px;
+	width: 70px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 58px;
+}
+
+
+.car_item_num{
+	width: 140px;
+	overflow: hidden;
+	padding-left: 30px;
+	text-align:center;
+}
+.car_item_num .numadd,.numj{
+	height: 25px;
+	width: 25px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	border: 1px #ccc solid;
+}
+#car_item_num{
+	width: 35px;
+	height: 25px;
+	float: left;
+	text-align:center;
+}
+.car_item_total,.car_item_option{
+	width: 92px;
+}
+
+.car_item_total{
+	text-align: center;
+	height: 18px;
+}
+.car_item_option{
+	text-align: center;
+	height: 58px;
+	line-height: 58px;
+}
+
+
+.content .content_inner .qx{
+	width: 942px;
+	height: 48px;
+	background: #f0f0f0;
+	padding: 5px 0;
+	overflow: hidden;
+}
+.content .content_inner .qx .qx_left{
+	float: left;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.content .content_inner .qx .qx_left .qx_box{
+	width:41px;
+	height: 16px;
+	line-height: 13px;
+	float: left;
+	margin-right: 20px;
+}
+.content .content_inner .qx .qx_left .go_shop{
+	width: 48px;
+	height: 16px;
+	float: left;
+	margin: 0 5px;
+}
+.content .content_inner .qx .qx_left>span{
+	float: left;
+}
+
+#shop_clear{
+	width: 72px;
+	height: 16px;
+	float: left;
+	margin-left: 5px;
+}
+.content .content_inner .qx .qx_right{
+	float: right;
+	overflow: hidden;
+}
+.content .content_inner .qx .qx_right .qx_rl{
+	float: left;
+}
+.content .content_inner .qx .qx_right .qx_rl p{
+	height: 20px;
+	width: 280px;
+	line-height: 20px;
+	color: #888;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.content .content_inner .qx .qx_right>span{
+	width: 40px;
+	height: 40px;
+	color: #D10048;
+	text-align: center;
+	margin-right: 15px;
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.content .content_inner .qx .qx_right>a{
+	width: 145px;
+	height: 40px;
+	background: #D10048;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	float: right;
+}

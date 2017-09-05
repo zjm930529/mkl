@@ -1,0 +1,85 @@
+.mainContent{
+	width: 1152px;
+	min-height: 100px;
+	margin: 0 auto;
+}
+.content{
+	width: 1002px;
+	min-height: 100px;
+	background: #fff;
+	border: 1px #f0f0f0 solid;
+	margin: 0 auto;
+	padding: 60px;
+}
+.content .content_inner{
+	width: 370px;
+	height: 370px;
+	margin: 0 auto;
+	position:relative;
+	padding: 1px;
+}
+.content .content_inner .zf{
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	background: url(images/zq.gif) center left no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #DB366F;
+	line-height: 30px;
+	padding-left: 35px;
+}
+.content .content_inner .yf{
+	height: 30px;
+	width: 300px;
+	text-align: center;
+	line-height: 30px;
+	color: #888;
+	margin: 10px 0;
+	
+}
+.content .content_inner .dh{
+	width: 350px;
+	height: 70px;
+	margin: 0 auto;
+	background: #EEEEEE;
+	text-align: center;
+	color: #888;
+}
+.content .content_inner .dh p{
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.content .content_inner .weixin{
+	width: 150px;
+	height: 130px;
+	margin: 0 auto;	
+	text-align: center;
+	margin-top: 10px;
+}
+.content .content_inner .weixin p{
+	height: 19px;
+	background: url(images/weixin_tu.gif) center left no-repeat;
+	text-align: center;
+	line-height: 19px;
+	margin-bottom: 15px;
+	margin: 0 auto;
+	padding-left: 10px;
+	letter-spacing: 3px;
+}
+.content .content_inner .weixin img{
+	vertical-align: middle;
+}
+
+#ljzf{
+	width: 360px;
+	height: 40px;
+	margin: 0 auto;
+	background: #D10048;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	border-radius: 5px;
+}
