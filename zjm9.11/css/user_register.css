@@ -1,0 +1,148 @@
+body{
+	background: url(../user_account/images/login-reg.gif)center top no-repeat #F0F0F0;
+}
+
+.registerMuen{
+	height: 722px;
+	width: 1022px;
+	margin: 0 auto;
+	position: relative;
+}
+.MuenBox{
+	width: 340px;
+	height: 434px;
+	position: absolute;
+	top:100px;
+	right: 5%;
+}
+.Muen_inner{
+	width: 340px;
+	position: relative;
+}
+.Muen_inner .register_bg{
+	width: 340px;
+	height: 506px;
+	background: #fff;
+	position: absolute;
+	top: 0;left: 0;
+	opacity: .5;
+	border: 1px #FFFFFF solid;
+}
+.Muen_inner ._register{
+	width: 280px;
+	height: 420px;
+	position:absolute;
+	top: 20px;
+	left: 30px;
+	z-index: 1;
+}
+.Muen_inner ._register p{
+	margin-bottom: 15px;
+	color: #000;
+	overflow: hidden;
+}
+.Muen_inner ._register p a{
+	text-decoration: underline;
+	color:#fab765;
+}
+.Muen_inner ._register p .pa2{
+	float:right;
+}
+._register .register_info{
+	height: 297px;
+}
+._register .register_info .text{
+	width: 280px;
+	height: 40px;
+	padding-left: 15px;
+	position: relative;
+	border: 1px #CCCCCC solid;
+	margin-bottom: 30px;
+	padding-left: 15px;
+	line-height: 40px;
+}
+._register .register_info #telpwd{
+	width: 50%;
+}
+._register .register_info #tela{
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px #CCCCCC solid;
+	border-radius: 10px;
+}
+._register .register_info i{
+	width: 22px;
+	height: 22px;
+	color: #888888;
+}
+._register .register_info input{
+	border: none;
+	height: 38px;
+	width: 70%;
+	line-height: 38px;
+	outline: none;
+	vertical-align: middle;
+	background: none;
+}
+._register .register_info #text_yz{
+	width: 37%;
+}
+
+._register .register_info label{
+	cursor: pointer;
+	width: 79px;
+	height: 21px;	
+	font-size: 13px;
+	color: #888;
+}
+._register .register_info #rember{
+	height: 13px;
+	width: 13px;
+	float: left;
+	margin-right: 10px;
+}
+._register .register_info label a{
+	color: #DB366F;
+	text-decoration: underline;
+}
+._register .register_info  #lg{
+	width: 280px;
+	height: 40px;
+	background: #d10048;
+	border : 1px #D10048 solid;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	margin-top: 20px;
+	
+}
+._register .partner{
+	width: 280px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 40px;
+}
+._register .partner span{
+	width:115px ;
+	height: 40px;
+	color: #888;
+}
+._register  .partner a{
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.warn{
+	line-height: 24px;
+	color: red;
+	padding-left: 24px;
+	width: 130px;
+	height: 24px;
+	display: none;
+	background: url(../user_account/images/war.gif) left center no-repeat;
+}
