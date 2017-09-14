@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/setbody.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/pwd_back.css"/>
+		<style type="text/css">
+		    .code
+		    {
+		            background:url(code_bg.jpg);
+		            font-family:Arial;
+		            font-style:italic;
+		             color:blue;
+		             font-size:18px;
+		             border:0;
+		             padding:2px 3px;
+		             letter-spacing:3px;
+		             font-weight:bolder;             
+		             float:left;            
+		             cursor:pointer;
+		             width:95px;
+		             height:45px;
+		             line-height:35px;
+		             text-align:center;
+		             vertical-align:middle;
+		             background: #EAFFEA;
+		
+		    }
+	    </style>
+	</head>
+	<body onload="createCode()">
+		<div class="newMuen">
+			<ul>
+				<li class="first"><a href="#">首      页</a></li>
+				<li id="hide_list">
+					<a href="#" class="Muen">品牌系列</a>
+					<div class="ProductMuen">
+						<div class="MuenL1"></div>
+						<div class="line"></div>
+						<a href="#">
+							<div>维您</div>
+						</a>
+						<div class="line"></div>
+						<a href="#">
+							<div>LA CELLER</div>
+						</a>
+						<div class="line"></div>
+						<a href="#">
+							<div>秘密花园</div>
+						</a>
+						<div class="line"></div>
+						<a href="#">
+							<div>SONOKO</div>
+						</a>
+						<div class="line"></div>
+					</div>
+				</li>
+				<li><a href="#">美容护肤</a></li>
+				<li><a href="#">健康养生</a></li>
+				<li><a href="#">家居日用</a></li>
+				<li><a href="#">积分换购</a></li>
+				<li><a href="#">会员专区</a></li>
+				<li><a href="#">关于麦考林</a></li>
+				<li><a href="#">企业荣誉</a></li>
+			</ul>
+		</div>
+		<nav>
+			<form name="nav_form" class="nav_f"  method="get" action="">
+				<input type="text" class="nav_search" placeholder="   热门搜索：洁面 控油 祛痘" />
+				<input type="button" class="nav_btn" value="搜索" />
+				<a>X</a>
+			</form>
+		</nav>
+		<header>
+			<div class="h_left">
+				<a href="#">
+					<img src="images/newlogo.png"/>
+				</a>
+			</div>
+			<ul class="h_right">
+				<li><a href="#"><img src="images/23.gif"/></a></li>
+				<li><a href="#">登录</a></li>
+				<li><a href="#">注册</a></li>
+				<li><a href="#">我的账户</a></li>
+				<li class="l_last">
+					<a href="#">
+						<img src="images/shopcar.gif"/>
+						<img src="images/tel-call.png"/>
+					</a>
+				</li>
+			</ul>
+		</header>
+		<div class="mainContent">
+			<div class="content">
+				<div class="content_inner">
+					<h3>找回密码</h3>
+					<div class="uname">
+						<span>用户名：</span>
+						<input type="text" id="uname" placeholder="请输入手机号/邮箱"/>						
+					</div>
+					<div class="war">用户不存在</div>
+					<div class="yzbox">
+						<div class="yz">
+							<span>验证码：</span>
+							<input type="text" class="yanzheng" placeholder="请输入验证码"/>							
+						</div>
+						<a href="">
+							<div class="code" id="checkCode" onclick="createCode()" ></div>
+						</a>
+						<div class="war">验证码错误</div>
+					</div>
+					<a href="#" id="next">下一步</a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="_foot">
+				<div class="foot_h">
+					<div class="foot_hl">
+						<ul>
+							<li>
+								<a href="#" class="foot_a" id="a1"></a>
+								<a href="#">100%正品保证</a>
+							</li>
+							<li>
+								<a href="#" class="foot_a" id="a2"></a>
+								<a href="#">专业在线客服</a>
+							</li>
+							<li>
+								<a href="#" class="foot_a" id="a3"></a>
+								<a href="#">满99元包邮</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="foot_hr">
+						<ul>
+							<li class="lh1">新手指南</li>
+							<li>新会员注册</li>
+							<li>购物演示</li>
+							<li>常见问题</li>							
+						</ul>
+						<ul>
+							<li class="lh1">新手指南</li>
+							<li>新会员注册</li>
+							<li>购物演示</li>
+							<li>常见问题</li>							
+						</ul>
+						<ul>
+							<li class="lh1">新手指南</li>
+							<li>新会员注册</li>
+							<li>购物演示</li>
+							<li>常见问题</li>							
+						</ul>
+						<ul class="u1">
+							<li class="lh1">麦考林订阅号</li>
+							<li><img src="images/dingyue.jpg"/></li>											
+						</ul>
+						<ul class="u2">
+							<li class="lh1">麦考林服务号</li>
+							<li><img src="images/fuwu.jpg"/></li>						
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="foot_b">
+				<div class="foot_bt">
+					<ul>
+						<li><a href="#">关于麦考林</a></li>
+						<li>INVESTOR RELATIONS</li>
+						<li>联系我们</li>
+						<li>服务中心</li>
+						<li id="bl">加入我们</li>
+					</ul>
+					<p class="foot_p" id="foot_p">
+						<a href="#">
+							<img src="images/newicon.png" />
+						</a>
+					沪ICP备05003306号Copyright&copy;MecoxLane&nbsp;Inc.All&nbsp;Rights&nbsp;Resvered
+					</p>
+				</div>
+				<div class="foot_bb">
+					<div class="b_b">
+						<a href="#" class="a1">
+						<img src="images/xfwqNew.jpg" />
+						</a>
+						<a href="#" class="a2">
+							<img src="images/evaluate.jpg"/>
+						</a>
+						<a href="#" class="a3">
+							<img src="images/beian.png"/>沪公网安备 31010402000234号
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="../js/public.js"></script>
+<script src="userjs/pwd_back.js"></script>
+<script src="userjs/cookie.js"></script>
+<script language="javascript" type="text/javascript">
+
+	//手机号
+	$("#uname").blur(function(){
+		var name = getCookie("uname").name;
+		if(!( $(this).val()==name)){
+			$(this).parent().next().css("display","block");
+		}
+	})
+	//验证码
+	$(".yanzheng").blur(function(){
+		if(!( $(this).val()==$("#checkCode").html().toLowerCase() ) ){
+			$(this).parent().siblings(".war").css("display","block")
+		}
+	})
+
+
+        var code;
+        function createCode() {
+            code = "";
+            var codeLength = 6; //验证码的长度
+            var checkCode = document.getElementById("checkCode");
+            var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+            'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //所有候选组成验证码的字符，当然也可以用中文的
+            for (var i = 0; i < codeLength; i++) 
+            {
+                var charNum = Math.floor(Math.random() * 52);
+                code += codeChars[charNum];
+            }
+            if (checkCode) 
+            {
+                checkCode.className = "code";
+                checkCode.innerHTML = code;
+            }
+        }
+        function validateCode() 
+        {
+            var inputCode = document.getElementById("inputCode").value;
+            if (inputCode.length <= 0) 
+            {
+                alert("请输入验证码！");
+            }
+            else if (inputCode.toUpperCase() != code.toUpperCase()) 
+            {
+                alert("验证码输入有误！");
+                createCode();
+            }
+            else 
+            {
+                alert("验证码正确！");
+            }        
+        }    
+     </script>

@@ -1,0 +1,122 @@
+.mainContent{
+	width: 1152px;
+	min-height: 662px;
+	margin: 0 auto;
+}
+.content{
+	width: 1002px;
+	min-height: 662px;
+	background: #fff;
+	border: 1px #f0f0f0 solid;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cont_left{
+	width: 190px;
+	height: 610px;
+	padding: 20px 0;
+	float: left;
+}
+.cont_left .u1 li {
+	width: 190px;
+	height: 26px;
+	text-indent: 50px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	margin: 10px 0;
+	cursor: pointer;
+}
+.cont_left .u1 .nav{
+	background:url(../user_account/images/ac_left_nav.jpg) 35px 3px no-repeat;
+}
+.cont_left .u1 .mylist{
+	background:url(../user_account/images/subnav.jpg) 120px 3px no-repeat ;
+}
+.cont_left .u1 .hidden_list{
+	width: 190px;
+	height: 54px;
+	text-indent:60px;
+	color:#AAAAAA;
+	font-size: 13px;
+}
+.cont_left .u1 .hidden_list p{
+	height: 26px;
+	line-height: 26px;
+}
+
+.cont_right{
+	width: 750px;
+	height: 660px;
+	float: left;
+	padding: 30px 0 150px 50px;
+	border-left: #ccc 1px solid;
+}
+.cont_right h2{
+	height: 38px;
+	padding-bottom: 5px;
+	border-bottom: 1px #ccc dotted;
+}
+.cont_right .right_info{
+	width: 600px;
+	min-height: 358px;
+	margin: 42px auto;
+}
+.cont_right .right_info .for_pwd{
+	width: 649px;
+	min-height: 198px;
+	margin:70px auto 70px 50px;
+}
+.cont_right .right_info dl{
+	width: 649px;
+	height: 35px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.cont_right .right_info dt,dd{
+	float: left;
+}
+.cont_right .right_info dt{
+	height: 35px;
+	width: 100px;
+	margin-right: 5px;
+	line-height: 25px;
+	text-align: right;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.cont_right .right_info dd{
+	width: 150px;
+	/*height: 22px;*/
+}
+input[type=text]{
+	height: 30px;
+}
+ .cont_right .right_info #savepwd{
+	height: 40px;
+	width: 173px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 100px;
+	font-size: 20px;
+	background: #D10048;
+}
+
+
+.war{
+	line-height: 24px;
+	color: red;
+	padding-left: 24px;
+	width: 130px;
+	height: 24px;
+	float: left;
+	margin-left: 10px;
+	display: none;
+	background: url(../user_account/images/war.gif) left center no-repeat;
+}
+
+.aa{
+	display: none;
+}
+/*mainContent  over*/

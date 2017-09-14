@@ -1,0 +1,18 @@
+/* 初始化标签在所有浏览器中的margin、padding值 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,img{padding: 0; margin: 0;}
+html{ _background:url(about:blank);}
+/* 酌情修改 */
+body{background:#f0f0f0;font-family:"宋体","微软雅黑"; height:100%;font-size: 12px; }
+th,td,input,select,textarea,button{font-size:12px;line-height:1.5 ;} /* 重置页面文字属性 */
+a{
+	text-decoration: none;
+	color: #888;
+	display: inline-block;
+}
+*{
+	box-sizing: border-box;
+}
+
+ul li {
+	list-style: none;
+}
