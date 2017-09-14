@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		    <style type="text/css">
+    .code
+    {
+            background:url(code_bg.jpg);
+            font-family:Arial;
+            font-style:italic;
+             color:blue;
+             font-size:17px;
+             border:0;
+             padding:2px 3px;
+             letter-spacing:3px;
+             font-weight:bolder;             
+             float:left;            
+             cursor:pointer;
+             width:100px;
+             height:27px;
+             line-height:40px;
+             text-align:center;
+             vertical-align:middle;
+			background: #EAFFEA;
+    }
+    </style>
+	</head>
+	<link rel="stylesheet" href="../css/setbody.css"/>
+	<link rel="stylesheet" href="../css/header_footer.css" />
+	<link rel="stylesheet" href="../css/user_register.css" />
+	<link rel="stylesheet" href="../font_ys325ulgxnf561or/iconfont.css" />
+	<body >
+		<div class="registerMuen">
+			<header>
+				<div class="h_left">
+					<a href="../index.html">
+						<img src="images/newlogo.png"/>
+					</a>
+				</div>
+			</header>
+			<div class="MuenBox">
+				<div class="Muen_inner">
+					<div class="register_bg"></div>
+					<div class="_register">
+						<p>
+							<span>已有麦考林账号？</span>
+							<a href="user_login.html">立即登录</a>
+							<a href="#" class="pa2">贵宾激活</a>
+						</p>
+						<form  name="register_name" class="register_info"  >
+							<div class="text">
+								<i class="iconfont">&#xe64a;</i>
+								<input type="text" id="uname" placeholder="请输入手机号" />
+								<div class="warn">手机格式不正确</div>
+							</div>							
+							<div class="text">
+								<input type="text"  placeholder="验证码" id="text_yz"/>
+								<a href="#">
+									<div class="code" id="checkCode" onclick="createCode()" ></div>
+									<a  onclick="createCode()">换一张</a>
+								</a>
+								<div class="warn">验证码不正确</div>
+							</div>
+							<div class="text " id="teltext">
+								<i class="iconfont">&#xe77b;</i>
+								<input type="text" id="telpwd" placeholder="请输入短信验证码" />
+								<a href="#" id="tela">获取短信验证码</a>
+								<div class="warn">不正确</div>
+							</div>
+							<div class="text">
+								<i class="iconfont">&#xe77b;</i>
+								<input type="password" id="upwd" placeholder="密码" />
+								<div class="warn">密码格式不正确</div>
+							</div>
+							<div class="text">
+								<i class="iconfont">&#xe77b;</i>
+								<input type="password" id="cpwd" placeholder="确认密码" />
+								<div class="warn">密码不一致</div>
+							</div>
+							<div class="_lable">
+								<label>
+									<input type="checkbox" id="rember"  />我已经阅读并同意
+									<a href="#">《麦考林用户注册协议》</a>
+								</label>
+							</div>
+							<input type="button"  id="lg" value="注&nbsp;&nbsp;册">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="_foot">
+				<div class="foot_h">
+					<div class="foot_hl">
+						<ul>
+							<li>
+								<a href="#" class="foot_a" id="a1"></a>
+								<a href="#">100%正品保证</a>
+							</li>
+							<li>
+								<a href="#" class="foot_a" id="a2"></a>
+								<a href="#">专业在线客服</a>
+							</li>
+							<li>
+								<a href="#" class="foot_a" id="a3"></a>
+								<a href="#">满99元包邮</a>
+							</li>
+							
+						</ul>
+					</div>
+					<div class="foot_hr">
+						<ul>
+							<li class="lh1">新手指南</li>
+							<li>新会员注册</li>
+							<li>购物演示</li>
+							<li>常见问题</li>							
+						</ul>
+						<ul>
+							<li class="lh1">新手指南</li>
+							<li>新会员注册</li>
+							<li>购物演示</li>
+							<li>常见问题</li>							
+						</ul>
+						<ul>
+							<li class="lh1">新手指南</li>
+							<li>新会员注册</li>
+							<li>购物演示</li>
+							<li>常见问题</li>							
+						</ul>
+						<ul class="u1">
+							<li class="lh1">麦考林订阅号</li>
+							<li><img src="images/dingyue.jpg"/></li>											
+						</ul>
+						<ul class="u2">
+							<li class="lh1">麦考林服务号</li>
+							<li><img src="images/fuwu.jpg"/></li>						
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="foot_b">
+				<div class="foot_bt">
+					<ul>
+						<li><a href="#">关于麦考林</a></li>
+						<li>INVESTOR RELATIONS</li>
+						<li>联系我们</li>
+						<li>服务中心</li>
+						<li id="bl">加入我们</li>
+					</ul>
+					<p class="foot_p" id="foot_p">
+						<a href="#">
+							<img src="images/newicon.png" />
+						</a>
+					沪ICP备05003306号Copyright&copy;MecoxLane&nbsp;Inc.All&nbsp;Rights&nbsp;Resvered
+					</p>
+				</div>
+				<div class="foot_bb">
+					<div class="b_b">
+						<a href="#" class="a1">
+						<img src="images/xfwqNew.jpg" />
+						</a>
+						<a href="#" class="a2">
+							<img src="images/evaluate.jpg"/>
+						</a>
+						<a href="#" class="a3">
+							<img src="images/beian.png"/>沪公网安备 31010402000234号
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script src="userjs/cookie.js"></script>
+<script language="javascript" type="text/javascript">
+		//手机号
+		var flagTel="";
+		$("#uname").blur(function(){
+			var str = $(this).val();
+			var reg=/^1(3|5|8)\d{9}$/;
+			if(reg.test(str)){
+				flagTel=true;
+			}else{
+				flagTel=false;
+				$(this).next().css("display","block")
+			}
+			
+		}).focus(function(){
+			$(this).next().css("display","none");
+		})
+		
+		
+		//验证码
+		var flagyz = "";
+		$("#text_yz").blur(function(){
+			if($(this).val()==$("#checkCode").html().toLowerCase()){
+				flagyz = true;
+			}else{
+				flagyz = false;
+				$(this).siblings(".warn").css("display","block");
+			}
+		}).focus(function(){
+			$(this).siblings(".warn").css("display","none");
+		})
+		
+		//密码
+		var flagpwd = "";
+		$("#upwd").blur(function(){
+			var str = $(this).val();
+			var reg = /\w{6,10}/;
+			if(reg.test(str)){
+				flagpwd=true;
+			}else{
+				flagpwd=false;
+				$(this).next().css("display","block");
+			}
+		}).focus(function(){
+			$(this).next().css("display","none");
+		})
+		
+		//确认密码
+		var flagcypwd = "";
+		$("#cpwd").blur(function(){
+			if($(this).val()==$("#upwd").val()){
+				flagcypwd=true;
+			}else{
+				flagcypwd=false;
+				$(this).next().css("display","block");
+			}
+				
+		}).focus(function(){
+			$(this).next().css("display","none");
+		})
+	
+		$("#lg").click(function(){//提交验证
+			
+			var name = $("#uname").val();
+			var pwd = $("#upwd").val();
+			var code = $("#text_yz").val();//			
+			if($("#rember").prop("checked") &&flagTel && flagyz && flagpwd &&flagcypwd){
+				$.ajax({
+					type:"POST",
+					url:"http://127.0.0.1/zjmphp/php/register.php",	
+					
+					data:{  
+						"uname":name,
+						"upwd":pwd						
+					},						
+					success:function(res){					
+						console.log(  res.length );
+						console.log( res )
+						//res = Number(res);
+						/*switch( res ){
+							case 1 : alert(1) ; break;
+							case 2 : alert(2) ; break ;
+							default : alert(3)
+						}*/
+						/*switch(res){
+							case "1" : 
+								alert("已存在！请换一个用户名注册");
+								location.reload();
+								break;
+							case "2": 
+								alert("注册成功！");
+							location.href="user_login.html";
+								break;			
+						};	
+						*/
+						if( res == 1  ){
+							alert("已存在！请换一个用户名注册");
+							location.reload();
+						}else if ( res == 2 ){
+							alert("注册成功");
+							location.href="user_login.html";
+						}
+					}		
+					
+				});
+				
+			}else{
+				alert("未阅读麦考林用户注册协议");				
+			}
+		}) 
+		
+
+	//验证码
+	$(function(){
+		createCode();
+	})
+        var code;
+        function createCode() {
+            code = "";
+            var codeLength = 6; //验证码的长度
+            var checkCode = document.getElementById("checkCode");
+            var codeChars = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+            'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //所有候选组成验证码的字符，当然也可以用中文的
+            for (var i = 0; i < codeLength; i++) 
+            {
+                var charNum = Math.floor(Math.random() * 52);
+                code += codeChars[charNum];
+            }
+            if (checkCode) 
+            {
+                checkCode.className = "code";
+                checkCode.innerHTML = code;
+            }
+        }
+        function validateCode() 
+        {
+            var inputCode = document.getElementById("inputCode").value;
+            if (inputCode.length <= 0) 
+            {
+                alert("请输入验证码！");
+            }
+            else if (inputCode.toUpperCase() != code.toUpperCase()) 
+            {
+                alert("验证码输入有误！");
+                createCode();
+            }
+            else 
+            {
+                alert("验证码正确！");
+            }        
+        }    
+     </script>
